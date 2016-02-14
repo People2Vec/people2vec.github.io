@@ -1,0 +1,82 @@
+footer {
+    background: #292c31;
+    border-top: 6px solid #a14018;
+    width: 100%;
+}
+
+footer nav a {
+    color: white;
+}
+
+footer nav a:hover,
+footer nav a:visited {
+    background: #676666;
+    color: white;
+}
+
+footer nav,
+footer .copyright {
+    background: black;
+    padding: 20px 0;
+    color: white;
+}
+
+nav.foot-nav ul li {
+    padding: 0 9px;
+}
+
+/* Footer Logo */
+
+footer .logo {
+    display: none;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    footer .logo {
+        display: block;
+    }
+}
+
+/* Footer - About Us */
+
+.footer-text {
+    margin: 20px 10px;
+    color: #cac7c7;
+    text-align: center;
+}
+
+.footer-text h3 {
+    font-size: 22px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 8px;
+}
+
+.footer-text p {
+    padding-top: 0;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .footer-text {
+        margin: 40px 0;
+    }
+}
+
+/* Footer - Copyright */
+
+footer .copyright {
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    footer .copyright {
+        font-size: 16px;
+    }
+}
